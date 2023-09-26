@@ -1,0 +1,29 @@
+#header{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    background-color: aliceblue;
+    width:300px;
+    padding:5px;
+    border: 2px solid gray;
+}
+.btn-secondary{
+    font-size: 20px;
+    border: 2px solid black ;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: black;
+    color: white;
+}
+canvas{
+    animation-name: tom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 60px;
+}
+
+@keyframes tom{
+    from {box-shadow: 1px 1px 45px black;}
+    to {box-shadow: 1px 1px 25px red;}
+}
